@@ -43,11 +43,6 @@ import java.sql.Statement;
  *          - NOT NULL: the column must have a value when inserting a record
  *          - UNIQUE: every record in a specific column must have a unique value
  *      - If a constraint that was defined is not met when inserting a record, a SQLException will be thrown.
- *
- *
- * Additional reference material:
- *      - https://www.w3schools.com/sql/sql_create_table.asp
- *
  */
 public class CreateATable {
 
